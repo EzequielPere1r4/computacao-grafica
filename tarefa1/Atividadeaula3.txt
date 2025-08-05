@@ -1,0 +1,28 @@
+Atividade aula 3
+
+1.
+Ponto inicial: (x0, y0) = (1, 1)
+
+Ponto final: (x1, y1) = (8, 5)
+
+Δx = x1 - x0 = 7
+
+Δy = y1 - y0 = 4
+
+A inclinação da reta é m = Δy/Δx = 4/7 ≈ 0.57, uma reta com inclinação < 1
+(então o x será incrementado de 1 em 1)
+| Iteração | x | y | d             | Ponto incluído |
+| -------- | - | - | ------------- | -------------- |
+| Inicial  | 1 | 1 | 1             | (1,1)          |
+| 1        | 2 | 2 | 1+(8-14) = -5 | (2,2)          |
+| 2        | 3 | 2 | -5+8 = 3      | (3,2)          |
+| 3        | 4 | 3 | 3+(8-14) = -3 | (4,3)          |
+| 4        | 5 | 3 | -3+8 = 5      | (5,3)          |
+| 5        | 6 | 4 | 5+(8-14) = -1 | (6,4)          |
+| 6        | 7 | 4 | -1+8 = 7      | (7,4)          |
+| 7        | 8 | 5 | 7+(8-14) = 1  | (8,5)          |
+
+
+
+2. Algoritmo em py disponivel nesse diretorio:
+   resultado obtido por ele: (1,1), (2,2), (3,2), (4,3), (5,3), (6,4), (7,4), (8,5)
